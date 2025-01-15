@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './book-list.component.html',
-  styleUrl: './book-list.component.css'
+  styleUrl: './book-list.component.css',
 })
 export class BookListComponent {
-
+  bookTitle: string = 'My Book';
 }
